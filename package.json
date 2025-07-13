@@ -1,0 +1,26 @@
+{
+  "name": "file-sharing-bot",
+  "version": "1.0.0",
+  "description": "Telegram file sharing bot with web support",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx expo export -p web",
+    "start": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "^50.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "expo-cli": "^6.3.4"
+  },
+  "keywords": [
+    "expo",
+    "telegram",
+    "file-sharing",
+    "web"
+  ],
+  "author": "Mohommed Iflan",
+  "license": "MIT"
+}
